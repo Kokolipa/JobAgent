@@ -1,0 +1,217 @@
+[
+    {
+        "text": "developed and deployed applications using AWS services like EC2, S3, and Lambda.",
+        "extractions": [
+            {
+                "extraction_text": "AWS",
+                "extraction_class": "cloud_services"
+            },
+            {
+                "extraction_text": "EC2",
+                "extraction_class": "cloud_services"
+            },
+            {
+                "extraction_text": "S3",
+                "extraction_class": "cloud_services"
+            },
+            {
+                "extraction_text": "Lambda",
+                "extraction_class": "cloud_services"
+            }
+        ]
+    },
+    {
+        "text": "architected solutions on Azure, leveraging Azure Functions and Cosmos DB for scalability.",
+        "extractions": [
+            {
+                "extraction_text": "Azure",
+                "extraction_class": "cloud_services"
+            },
+            {
+                "extraction_text": "Azure Functions",
+                "extraction_class": "cloud_services"
+            },
+            {
+                "extraction_text": "Cosmos DB",
+                "extraction_class": "cloud_services"
+            }
+        ]
+    },
+    {
+        "text": "migrated on-premise infrastructure to Google Cloud Platform (GCP) and utilized BigQuery for data analysis.",
+        "extractions": [
+            {
+                "extraction_text": "Google Cloud Platform (GCP)",
+                "extraction_class": "cloud_services"
+            },
+            {
+                "extraction_text": "BigQuery",
+                "extraction_class": "cloud_services"
+            }
+        ]
+    },
+    {
+        "text": "created complex queries and reports using SQL and NoSQL databases like MongoDB.",
+        "extractions": [
+            {
+                "extraction_text": "SQL",
+                "extraction_class": "databases"
+            },
+            {
+                "extraction_text": "NoSQL",
+                "extraction_class": "databases"
+            },
+            {
+                "extraction_text": "MongoDB",
+                "extraction_class": "databases"
+            }
+        ]
+    },
+    {
+        "text": "designed and optimized a PostgreSQL database for a high-traffic e-commerce platform.",
+        "extractions": [
+            {
+                "extraction_text": "PostgreSQL",
+                "extraction_class": "databases"
+            }
+        ]
+    },
+    {
+        "text": "managed a data warehouse using Amazon Redshift and built data pipelines with Snowflake.",
+        "extractions": [
+            {
+                "extraction_text": "Amazon Redshift",
+                "extraction_class": "databases"
+            },
+            {
+                "extraction_text": "Snowflake",
+                "extraction_class": "databases"
+            }
+        ]
+    },
+    {
+        "text": "developed a backend API in Python using the Django framework and Flask micro-framework.",
+        "extractions": [
+            {
+                "extraction_text": "Python",
+                "extraction_class": "dev_language"
+            },
+            {
+                "extraction_text": "Django",
+                "extraction_class": "dev_language"
+            },
+            {
+                "extraction_text": "Flask",
+                "extraction_class": "dev_language"
+            }
+        ]
+    },
+    {
+        "text": "built a responsive user interface with JavaScript, HTML, and CSS, using React for component-based design.",
+        "extractions": [
+            {
+                "extraction_text": "JavaScript",
+                "extraction_class": "dev_language"
+            },
+            {
+                "extraction_text": "HTML",
+                "extraction_class": "dev_language"
+            },
+            {
+                "extraction_text": "CSS",
+                "extraction_class": "dev_language"
+            },
+            {
+                "extraction_text": "React",
+                "extraction_class": "dev_language"
+            }
+        ]
+    },
+    {
+        "text": "created a mobile application for iOS using Swift and Android with Kotlin.",
+        "extractions": [
+            {
+                "extraction_text": "Swift",
+                "extraction_class": "dev_language"
+            },
+            {
+                "extraction_text": "Kotlin",
+                "extraction_class": "dev_language"
+            }
+        ]
+    },
+    {
+        "text": "built interactive dashboards with Power BI to visualize key performance indicators.",
+        "extractions": [
+            {
+                "extraction_text": "Power BI",
+                "extraction_class": "data_visualisation"
+            }
+        ]
+    },
+    {
+        "text": "analyzed and presented sales data using Tableau and Kibana.",
+        "extractions": [
+            {
+                "extraction_text": "Tableau",
+                "extraction_class": "data_visualisation"
+            },
+            {
+                "extraction_text": "Kibana",
+                "extraction_class": "data_visualisation"
+            }
+        ]
+    },
+    {
+        "text": "developed a series of charts and graphs using Matplotlib and Seaborn for statistical analysis.",
+        "extractions": [
+            {
+                "extraction_text": "Matplotlib",
+                "extraction_class": "data_visualisation"
+            },
+            {
+                "extraction_text": "Seaborn",
+                "extraction_class": "data_visualisation"
+            }
+        ]
+    },
+    {
+        "text": "implemented a Random Forest algorithm to predict customer churn, and a Convolutional Neural Network (CNN) for image recognition.",
+        "extractions": [
+            {
+                "extraction_text": "Random Forest",
+                "extraction_class": "algorithms"
+            },
+            {
+                "extraction_text": "Convolutional Neural Network (CNN)",
+                "extraction_class": "algorithms"
+            }
+        ]
+    },
+    {
+        "text": "applied k-means clustering to segment customer demographics and Logistic Regression for binary classification.",
+        "extractions": [
+            {
+                "extraction_text": "k-means clustering",
+                "extraction_class": "algorithms"
+            },
+            {
+                "extraction_text": "Logistic Regression",
+                "extraction_class": "algorithms"
+            }
+        ]
+    },
+    {
+        "text": "used a Support Vector Machine (SVM) for classification tasks and decision trees for predictive modeling.",
+        "extractions": [
+            {
+                "extraction_text": "Support Vector Machine (SVM)",
+                "extraction_class": "algorithms"
+            },
+            {
+                "extraction_text": "decision trees",
+                "extraction_class": "algorithms"
+            }
+        ]
+    }
+]

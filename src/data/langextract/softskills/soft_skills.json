@@ -1,0 +1,560 @@
+[
+    {
+        "text": "presented to stakeholders",
+        "extractions": [
+            {
+                "extraction_text": "presented to stakeholders",
+                "extraction_class": "communication"
+            }
+        ]
+    },
+    {
+        "text": "collaborated with cross-functional teams",
+        "extractions": [
+            {
+                "extraction_text": "collaborated with cross-functional teams",
+                "extraction_class": "communication"
+            }
+        ]
+    },
+    {
+        "text": "wrote technical documentation",
+        "extractions": [
+            {
+                "extraction_text": "wrote technical documentation",
+                "extraction_class": "communication"
+            }
+        ]
+    },
+    {
+        "text": "articulated project goals",
+        "extractions": [
+            {
+                "extraction_text": "articulated project goals",
+                "extraction_class": "communication"
+            }
+        ]
+    },
+    {
+        "text": "facilitated meetings",
+        "extractions": [
+            {
+                "extraction_text": "facilitated meetings",
+                "extraction_class": "communication"
+            }
+        ]
+    },
+    {
+        "text": "gave a presentation to the leadership",
+        "extractions": [
+            {
+                "extraction_text": "gave a presentation to the leadership",
+                "extraction_class": "communication"
+            }
+        ]
+    },
+    {
+        "text": "drafted a project proposal",
+        "extractions": [
+            {
+                "extraction_text": "drafted a project proposal",
+                "extraction_class": "communication"
+            }
+        ]
+    },
+    {
+        "text": "communicated effectively with the team",
+        "extractions": [
+            {
+                "extraction_text": "communicated effectively with the team",
+                "extraction_class": "communication"
+            }
+        ]
+    },
+    {
+        "text": "provided clear and concise updates",
+        "extractions": [
+            {
+                "extraction_text": "provided clear and concise updates",
+                "extraction_class": "communication"
+            }
+        ]
+    },
+    {
+        "text": "led a team of",
+        "extractions": [
+            {
+                "extraction_text": "led a team of",
+                "extraction_class": "leadership"
+            }
+        ]
+    },
+    {
+        "text": "mentored junior developers",
+        "extractions": [
+            {
+                "extraction_text": "mentored junior developers",
+                "extraction_class": "leadership"
+            }
+        ]
+    },
+    {
+        "text": "managed a project",
+        "extractions": [
+            {
+                "extraction_text": "managed a project",
+                "extraction_class": "leadership"
+            }
+        ]
+    },
+    {
+        "text": "guided the team through",
+        "extractions": [
+            {
+                "extraction_text": "guided the team through",
+                "extraction_class": "leadership"
+            }
+        ]
+    },
+    {
+        "text": "delegated tasks",
+        "extractions": [
+            {
+                "extraction_text": "delegated tasks",
+                "extraction_class": "leadership"
+            }
+        ]
+    },
+    {
+        "text": "provided constructive feedback",
+        "extractions": [
+            {
+                "extraction_text": "provided constructive feedback",
+                "extraction_class": "leadership"
+            }
+        ]
+    },
+    {
+        "text": "championed a new initiative",
+        "extractions": [
+            {
+                "extraction_text": "championed a new initiative",
+                "extraction_class": "leadership"
+            }
+        ]
+    },
+    {
+        "text": "coordinated project resources",
+        "extractions": [
+            {
+                "extraction_text": "coordinated project resources",
+                "extraction_class": "leadership"
+            }
+        ]
+    },
+    {
+        "text": "oversaw the successful completion of",
+        "extractions": [
+            {
+                "extraction_text": "oversaw the successful completion of",
+                "extraction_class": "leadership"
+            }
+        ]
+    },
+    {
+        "text": "diagnosed and resolved",
+        "extractions": [
+            {
+                "extraction_text": "diagnosed and resolved",
+                "extraction_class": "problem_solving"
+            }
+        ]
+    },
+    {
+        "text": "optimized the performance of",
+        "extractions": [
+            {
+                "extraction_text": "optimized the performance of",
+                "extraction_class": "problem_solving"
+            }
+        ]
+    },
+    {
+        "text": "troubleshot a bug",
+        "extractions": [
+            {
+                "extraction_text": "troubleshot a bug",
+                "extraction_class": "problem_solving"
+            }
+        ]
+    },
+    {
+        "text": "improved the performance of",
+        "extractions": [
+            {
+                "extraction_text": "improved the performance of",
+                "extraction_class": "problem_solving"
+            }
+        ]
+    },
+    {
+        "text": "enhanced the performance of",
+        "extractions": [
+            {
+                "extraction_text": "enhanced the performance of",
+                "extraction_class": "problem_solving"
+            }
+        ]
+    },
+    {
+        "text": "refactored the code base",
+        "extractions": [
+            {
+                "extraction_text": "refactored the code base",
+                "extraction_class": "problem_solving"
+            }
+        ]
+    },
+    {
+        "text": "identified a bottleneck",
+        "extractions": [
+            {
+                "extraction_text": "identified a bottleneck",
+                "extraction_class": "problem_solving"
+            }
+        ]
+    },
+    {
+        "text": "debugged a critical issue",
+        "extractions": [
+            {
+                "extraction_text": "debugged a critical issue",
+                "extraction_class": "problem_solving"
+            }
+        ]
+    },
+    {
+        "text": "designed a solution for",
+        "extractions": [
+            {
+                "extraction_text": "designed a solution for",
+                "extraction_class": "problem_solving"
+            }
+        ]
+    },
+    {
+        "text": "worked in an agile team",
+        "extractions": [
+            {
+                "extraction_text": "worked in an agile team",
+                "extraction_class": "teamwork_collaboration"
+            }
+        ]
+    },
+    {
+        "text": "partnered with cross-functional groups",
+        "extractions": [
+            {
+                "extraction_text": "partnered with cross-functional groups",
+                "extraction_class": "teamwork_collaboration"
+            }
+        ]
+    },
+    {
+        "text": "supported colleagues",
+        "extractions": [
+            {
+                "extraction_text": "supported colleagues",
+                "extraction_class": "teamwork_collaboration"
+            }
+        ]
+    },
+    {
+        "text": "contributed to a shared codebase",
+        "extractions": [
+            {
+                "extraction_text": "contributed to a shared codebase",
+                "extraction_class": "teamwork_collaboration"
+            }
+        ]
+    },
+    {
+        "text": "participated in code reviews",
+        "extractions": [
+            {
+                "extraction_text": "participated in code reviews",
+                "extraction_class": "teamwork_collaboration"
+            }
+        ]
+    },
+    {
+        "text": "shared knowledge with the team",
+        "extractions": [
+            {
+                "extraction_text": "shared knowledge with the team",
+                "extraction_class": "teamwork_collaboration"
+            }
+        ]
+    },
+    {
+        "text": "integrated feedback from",
+        "extractions": [
+            {
+                "extraction_text": "integrated feedback from",
+                "extraction_class": "teamwork_collaboration"
+            }
+        ]
+    },
+    {
+        "text": "aligned with other teams to",
+        "extractions": [
+            {
+                "extraction_text": "aligned with other teams to",
+                "extraction_class": "teamwork_collaboration"
+            }
+        ]
+    },
+    {
+        "text": "fostered a collaborative environment",
+        "extractions": [
+            {
+                "extraction_text": "fostered a collaborative environment",
+                "extraction_class": "teamwork_collaboration"
+            }
+        ]
+    },
+    {
+        "text": "interpreted complex data",
+        "extractions": [
+            {
+                "extraction_text": "interpreted complex data",
+                "extraction_class": "analytical_thinking"
+            }
+        ]
+    },
+    {
+        "text": "performed root cause analysis",
+        "extractions": [
+            {
+                "extraction_text": "performed root cause analysis",
+                "extraction_class": "analytical_thinking"
+            }
+        ]
+    },
+    {
+        "text": "evaluated performance metrics",
+        "extractions": [
+            {
+                "extraction_text": "evaluated performance metrics",
+                "extraction_class": "analytical_thinking"
+            }
+        ]
+    },
+    {
+        "text": "conducted a market analysis",
+        "extractions": [
+            {
+                "extraction_text": "conducted a market analysis",
+                "extraction_class": "analytical_thinking"
+            }
+        ]
+    },
+    {
+        "text": "analyzed user behavior",
+        "extractions": [
+            {
+                "extraction_text": "analyzed user behavior",
+                "extraction_class": "analytical_thinking"
+            }
+        ]
+    },
+    {
+        "text": "gathered and synthesized data",
+        "extractions": [
+            {
+                "extraction_text": "gathered and synthesized data",
+                "extraction_class": "analytical_thinking"
+            }
+        ]
+    },
+    {
+        "text": "developed data-driven insights",
+        "extractions": [
+            {
+                "extraction_text": "developed data-driven insights",
+                "extraction_class": "analytical_thinking"
+            }
+        ]
+    },
+    {
+        "text": "modeled financial trends",
+        "extractions": [
+            {
+                "extraction_text": "modeled financial trends",
+                "extraction_class": "analytical_thinking"
+            }
+        ]
+    },
+    {
+        "text": "adapted to a new framework",
+        "extractions": [
+            {
+                "extraction_text": "adapted to a new framework",
+                "extraction_class": "adaptability"
+            }
+        ]
+    },
+    {
+        "text": "learned a new programming language",
+        "extractions": [
+            {
+                "extraction_text": "learned a new programming language",
+                "extraction_class": "adaptability"
+            }
+        ]
+    },
+    {
+        "text": "responded to changing priorities",
+        "extractions": [
+            {
+                "extraction_text": "responded to changing priorities",
+                "extraction_class": "adaptability"
+            }
+        ]
+    },
+    {
+        "text": "pivoted to a new strategy",
+        "extractions": [
+            {
+                "extraction_text": "pivoted to a new strategy",
+                "extraction_class": "adaptability"
+            }
+        ]
+    },
+    {
+        "text": "implemented new tools",
+        "extractions": [
+            {
+                "extraction_text": "implemented new tools",
+                "extraction_class": "adaptability"
+            }
+        ]
+    },
+    {
+        "text": "adjusted to unexpected challenges",
+        "extractions": [
+            {
+                "extraction_text": "adjusted to unexpected challenges",
+                "extraction_class": "adaptability"
+            }
+        ]
+    },
+    {
+        "text": "quickly mastered a new technology",
+        "extractions": [
+            {
+                "extraction_text": "quickly mastered a new technology",
+                "extraction_class": "adaptability"
+            }
+        ]
+    },
+    {
+        "text": "developed a novel approach to",
+        "extractions": [
+            {
+                "extraction_text": "developed a novel approach to",
+                "extraction_class": "creativity_innovation"
+            }
+        ]
+    },
+    {
+        "text": "designed a custom solution",
+        "extractions": [
+            {
+                "extraction_text": "designed a custom solution",
+                "extraction_class": "creativity_innovation"
+            }
+        ]
+    },
+    {
+        "text": "pioneered a new method",
+        "extractions": [
+            {
+                "extraction_text": "pioneered a new method",
+                "extraction_class": "creativity_innovation"
+            }
+        ]
+    },
+    {
+        "text": "created an original feature",
+        "extractions": [
+            {
+                "extraction_text": "created an original feature",
+                "extraction_class": "creativity_innovation"
+            }
+        ]
+    },
+    {
+        "text": "conceptualized a new product",
+        "extractions": [
+            {
+                "extraction_text": "conceptualized a new product",
+                "extraction_class": "creativity_innovation"
+            }
+        ]
+    },
+    {
+        "text": "innovated on an existing process",
+        "extractions": [
+            {
+                "extraction_text": "innovated on an existing process",
+                "extraction_class": "creativity_innovation"
+            }
+        ]
+    },
+    {
+        "text": "managed multiple projects concurrently",
+        "extractions": [
+            {
+                "extraction_text": "managed multiple projects concurrently",
+                "extraction_class": "time_management_organization"
+            }
+        ]
+    },
+    {
+        "text": "prioritized tasks to meet a deadline",
+        "extractions": [
+            {
+                "extraction_text": "prioritized tasks to meet a deadline",
+                "extraction_class": "time_management_organization"
+            }
+        ]
+    },
+    {
+        "text": "streamlined workflows",
+        "extractions": [
+            {
+                "extraction_text": "streamlined workflows",
+                "extraction_class": "time_management_organization"
+            }
+        ]
+    },
+    {
+        "text": "organized project files",
+        "extractions": [
+            {
+                "extraction_text": "organized project files",
+                "extraction_class": "time_management_organization"
+            }
+        ]
+    },
+    {
+        "text": "executed a project on schedule",
+        "extractions": [
+            {
+                "extraction_text": "executed a project on schedule",
+                "extraction_class": "time_management_organization"
+            }
+        ]
+    }
+]
