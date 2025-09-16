@@ -2,13 +2,17 @@ from typing import Any, Dict, List
 
 import torch
 from tqdm import trange
-from transformers import pipeline
+from transformers import AutoModelForSequenceClassification, AutoTokenizer, pipeline
 
+# Load tokeniser, model, and use pipeline for inference
+tokenizer = AutoTokenizer.from_pretrained("siebert/sentiment-roberta-large-english")
+model = AutoModelForSequenceClassification.from_pretrained("siebert/sentiment-roberta-large-english")
 sentiment_analyser = pipeline(
-    "sentiment-analysis",
-    model="siebert/sentiment-roberta-large-english",
-    device="cpu"
-)
+    task="sentiment-analysis", 
+    model=model,
+    tokenizer=tokenizer, 
+    device=-1 
+) # type: ignore
 
 # Define a function to apply sentiment analysis
 def analyse_company_sentiments(obj: List[Dict[str, Any]], batch_size: int = 10) -> List[Dict[str, Any]]:
@@ -80,8 +84,8 @@ def concatenate_reviews(obj: List[Dict[str, Dict[str, List[str]]]], company: str
     for review in obj: 
         company_review = review.get(company)
         if company_review is not None: 
-            concatenated_pos_reviews: str = "\n".join([f"{i}. {rev}" for i, rev in enumerate(company_review.get("POSITIVE"), start=1)])
-            concatenated_neg_reviews: str = "\n".join([f"{i}. {rev}" for i, rev in enumerate(company_review.get("NEGATIVE"), start=1)])
+            concatenated_pos_reviews: str = "\n".join([f"{i}. {rev}" for i, rev in enumerate(company_review.get("POSITIVE", []), start=1)])
+            concatenated_neg_reviews: str = "\n".join([f"{i}. {rev}" for i, rev in enumerate(company_review.get("NEGATIVE", []), start=1)])
             results[company] = {"POSITIVE": concatenated_pos_reviews, "NEGATIVE": concatenated_neg_reviews}
     
     return results
