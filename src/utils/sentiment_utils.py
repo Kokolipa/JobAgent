@@ -1,7 +1,7 @@
 from typing import Any, Dict, List
 
 import torch
-from tqdm import trange
+from tqdm import trange  # type: ignore
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, pipeline
 
 # Load tokeniser, model, and use pipeline for inference
@@ -77,11 +77,67 @@ def create_positive_negative_reviews_dict(reviews: List[Dict[str, Any]], company
         }
     }
 
+def extract_pos_neg_ratios(
+        sentiment_obj: List[Dict[str, Dict[str, List[str]]]],
+        company: str
+    ) -> Dict[str, float]:
+    """
+    Extract positive and negative review ratios for a given company 
+    from a list of sentiment objects.
 
-# Create a function to concatenate Positive and negative reviews
-def concatenate_reviews(obj: List[Dict[str, Dict[str, List[str]]]], company: str) -> Dict[str, Dict[str, str]]: 
+    Each element in `sentiment_obj` is expected to be a dictionary 
+    where the key is a company name and the value is another dictionary 
+    with keys "POSITIVE" and "NEGATIVE" mapping to lists of reviews.
+
+    Args:
+        sentiment_obj (List[Dict[str, Dict[str, List[str]]]]): 
+            A list of sentiment dictionaries containing company reviews.
+        company (str): 
+            The company name to extract sentiment ratios for.
+
+    Returns:
+        Dict[str, float]: A dictionary with keys:
+            - "pos": Proportion of positive reviews for the company.
+            - "neg": Proportion of negative reviews for the company.
+
+    Raises:
+        ValueError: If no reviews are found for the given company.
+    """
+
+    pos_count: int = 0
+    neg_count: int = 0
+
+    for review in sentiment_obj:
+        if review.get(company) is None:
+            continue # No reviews available for the company
+        company_reviews: Dict[str, List[str]] = review[company]
+        pos_count += len(company_reviews.get("POSITIVE", []))
+        neg_count += len(company_reviews.get("NEGATIVE", []))
+    
+    overall_reviews = pos_count + neg_count
+    if overall_reviews == 0: 
+        raise ValueError(f"No reviews were found for {company.upper()}")
+    
+    return {
+        "pos": pos_count / overall_reviews,
+        "neg": neg_count / overall_reviews,
+    }
+
+
+     
+
+def concatenate_reviews(sentiment_obj: List[Dict[str, Dict[str, List[str]]]], company: str) -> Dict[str, Dict[str, str]]: 
+    """This function concatenates positive and negative sentiment review content results into a single text chunk
+
+    Args:
+        obj (List[Dict[str, Dict[str, List[str]]]]): An object containing positive and negative reviews as a list.
+        company (str): The company name
+
+    Returns:
+        Dict[str, Dict[str, str]]: A dictionary containing the concatenated positive and negative reviews.
+    """
     results = {}
-    for review in obj: 
+    for review in sentiment_obj: 
         company_review = review.get(company)
         if company_review is not None: 
             concatenated_pos_reviews: str = "\n".join([f"{i}. {rev}" for i, rev in enumerate(company_review.get("POSITIVE", []), start=1)])
